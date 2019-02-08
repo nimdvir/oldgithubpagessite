@@ -1,32 +1,9 @@
-<!DOCTYPE html>
-<html>
+---
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>skills</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
-</head>
 
-<body class="stackedit">
-  <div class="stackedit__left">
-    <div class="stackedit__toc">
-      
-<ul>
-<li>
-<ul>
-<li><a href="#full-stack-web-developer">Full Stack Web Developer</a></li>
-<li><a href="#client-software">Client Software</a></li>
-<li><a href="#server-software">Server Software</a></li>
-</ul>
-</li>
-</ul>
+---
 
-    </div>
-  </div>
-  <div class="stackedit__right">
-    <div class="stackedit__html">
-      <h2 id="full-stack-web-developer">Full Stack Web Developer</h2>
+<h2 id="full-stack-web-developer">Full Stack Web Developer</h2>
 <p>A full stack web developer is a person who can develop both <strong>client</strong> and<br>
 <strong>server</strong> software.</p>
 <p>In addition to mastering HTML and CSS, he/she also knows how to:</p>
@@ -87,8 +64,3 @@ How to Auto-generated Table of Contents with HTML Slots - Hongkiat</p>
 <a href="https://www.hongkiat.com/blog/create-auto-generated-table-of-contents-html-slot/">https://www.hongkiat.com/blog/create-auto-generated-table-of-contents-html-slot/</a></p>
 <p>Wed, 30 Jan 2019 22:34:53 -0500</p>
 
-    </div>
-  </div>
-</body>
-
-</html>
