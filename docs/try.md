@@ -12,8 +12,11 @@ In addition to mastering HTML and CSS, he/she also knows how to:
 
 ---
 
-## Client Software  
+## :one: Client Software  
 (Front End)
+
+:copyright:
+:one:
 
 * [HTML][0]
 * [CSS][1]
