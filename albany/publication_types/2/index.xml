@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 on Nim dvir</title>
+    <link>/~nd115232/public/publication_types/2/</link>
+    <description>Recent content in 2 on Nim dvir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Sun, 01 Apr 2018 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/~nd115232/public/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>When less is more: Empirical study of the relation between consumer behavior and information sharing on commercial landing pages</title>
+      <link>/~nd115232/public/publication/less-isi/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/publication/less-isi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

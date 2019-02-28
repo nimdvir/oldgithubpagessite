@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UX on Nim dvir</title>
+    <link>/~nd115232/public/tags/ux/</link>
+    <description>Recent content in UX on Nim dvir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Thu, 01 Nov 2018 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/~nd115232/public/tags/ux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to be interesting? A content-based approach for user engagement</title>
+      <link>/~nd115232/public/talk/interesting/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/talk/interesting/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Teaching E-commerce to STEM students - Leveraging evidence from a large-scale survey</title>
+      <link>/~nd115232/public/talk/ecom/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/~nd115232/public/talk/ecom/</guid>
+      <description>Click on the Slides button above to view the built-in slides feature.
+ Slides can be added in a few ways: - **Create** slides using Academic&#39;s *Slides* feature and link using `url_slides` parameter in the front matter of the talk file - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.</description>
+    </item>
+    
+    <item>
+      <title>Web experiments</title>
+      <link>/~nd115232/public/project/less/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/project/less/</guid>
+      <description>This project encompasses empirical examinations of how users willingness&amp;rsquo; to disclose personal data is influenced by the amount of information provided on landing pages – standalone web pages created explicitly for marketing or advertising campaigns. 
+A series of large-scale web experiments (n= 535 and n= 27,900) were conducted employing a between-subjects design and A/B testing. Two variants of landing pages, long and short, were created based on relevant behavioral theories.</description>
+    </item>
+    
+    <item>
+      <title>Branding</title>
+      <link>/~nd115232/public/project/branding/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/project/branding/</guid>
+      <description> Zang Toi Scope document
+     </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Nim dvir</title>
+    <link>/~nd115232/public/home/</link>
+    <description>Recent content in Homes on Nim dvir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/~nd115232/public/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/~nd115232/public/home/hero_carousel/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/home/hero_carousel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic</title>
+      <link>/~nd115232/public/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/home/hero/</guid>
+      <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes</description>
+    </item>
+    
+    <item>
+      <title>Skills</title>
+      <link>/~nd115232/public/home/skills/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/home/skills/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/~nd115232/public/home/about/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/home/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Education</title>
+      <link>/~nd115232/public/home/education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/~nd115232/public/home/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Talks</title>
+      <link>/~nd115232/public/home/talks_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/home/talks_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>/~nd115232/public/home/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/~nd115232/public/home/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>/~nd115232/public/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/~nd115232/public/home/accom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/~nd115232/public/home/accom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/~nd115232/public/home/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/~nd115232/public/home/teaching/</guid>
+      <description> E-Commerce: Principles, methods ‎and technologies Research methods for Information Studies Programming for problem solving: Introduction to Python Programming for Informatics: Advanced Python Databases management and programming Managing information technology  </description>
+    </item>
+    
+    <item>
+      <title>Selected Research Publications</title>
+      <link>/~nd115232/public/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>/~nd115232/public/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected presentations / talks</title>
+      <link>/~nd115232/public/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/home/talks/</guid>
+      <description>]</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/~nd115232/public/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/~nd115232/public/home/teaching-copy/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/home/teaching-copy/</guid>
+      <description>This is an example of using the custom widget to create your own homepage section.
+I am a teaching instructor for the following courses at University X:
+| | | | &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;|&amp;ndash;| |E-Commerce: Principles, methods ‎and technologies | | |Research methods for Information Studies | |
+
+ E-Commerce: Principles, methods ‎and technologies Research methods for Information Studies CS103: An intro to computer science CS104: An intro to computer science CS105: An intro to computer science CS106: An intro to computer science CS107: An intro to computer science     Ph.</description>
+    </item>
+    
+    <item>
+      <title>Media</title>
+      <link>/~nd115232/public/home/media/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/home/media/</guid>
+      <description>More media work</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/~nd115232/public/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/home/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>/~nd115232/public/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/home/tags/</guid>
+      <description>   Command Description     hugo Build your website.   hugo serve -w View your website.             `2015 - 2017 Full Academic Scholarship University at Albany, State University of New York – SUNY (USA)   hugo serve -w View your website.    </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on Nim dvir</title>
+    <link>/~nd115232/public/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Nim dvir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="/~nd115232/public/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to be interesting? A content-based approach for user engagement</title>
+      <link>/~nd115232/public/talk/interesting/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/talk/interesting/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Less is more: An empirical investigation of the relationship between amount of ‎digital content and user engagement</title>
+      <link>/~nd115232/public/talk/uxpa/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/talk/uxpa/</guid>
+      <description>      </description>
+    </item>
+    
+    <item>
+      <title>Teaching E-commerce to STEM students - Leveraging evidence from a large-scale survey</title>
+      <link>/~nd115232/public/talk/ecom/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/~nd115232/public/talk/ecom/</guid>
+      <description>Click on the Slides button above to view the built-in slides feature.
+ Slides can be added in a few ways: - **Create** slides using Academic&#39;s *Slides* feature and link using `url_slides` parameter in the front matter of the talk file - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.</description>
+    </item>
+    
+  </channel>
+</rss>

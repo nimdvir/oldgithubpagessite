@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>user experience (UX) on Nim dvir</title>
+    <link>/~nd115232/tags/user-experience-ux/</link>
+    <description>Recent content in user experience (UX) on Nim dvir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Fri, 27 Apr 2018 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/~nd115232/tags/user-experience-ux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Web experiments</title>
+      <link>/~nd115232/project/less/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/project/less/</guid>
+      <description>This project encompasses empirical examinations of how users willingness&amp;rsquo; to disclose personal data is influenced by the amount of information provided on landing pages – standalone web pages created explicitly for marketing or advertising campaigns. 
+A series of large-scale web experiments (n= 535 and n= 27,900) were conducted employing a between-subjects design and A/B testing. Two variants of landing pages, long and short, were created based on relevant behavioral theories.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sticky on Nim dvir</title>
+    <link>/~nd115232/public/tags/sticky/</link>
+    <description>Recent content in sticky on Nim dvir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Thu, 01 Nov 2018 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/~nd115232/public/tags/sticky/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sticky words: Evaluation and optimization of information interactions based on linguistic analysis</title>
+      <link>/~nd115232/public/publication/sticky_asist/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/~nd115232/public/publication/sticky_asist/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
