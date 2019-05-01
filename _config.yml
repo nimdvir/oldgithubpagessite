@@ -23,8 +23,7 @@ description: a website for Nim Dvir, PhD candidate and faculty, hosted on git pa
 
 # List of links in the navigation bar
 navbar-links:
-  About: ""
-    - UAlbany: "https://www.nimdvir.com"
+  About: "aboutme"
   Research: ""
   Teaching: ""
   Resources:
@@ -32,6 +31,7 @@ navbar-links:
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
     - github: "https://github.com/nimdvir/nimdvir.github.io/"
+    - UAlbany: "https://www.nimdvir.com"
   News: ""
   Home: "https://nimdvir.github.io"
 
