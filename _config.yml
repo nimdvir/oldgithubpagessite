@@ -23,16 +23,16 @@ description: a website for Nim Dvir, PhD candidate and faculty, hosted on git pa
 
 # List of links in the navigation bar
 navbar-links:
-  About: "aboutme"
+  About: ""
     - UAlbany: "https://www.nimdvir.com"
-  Research: "research"
-  Teaching: "teaching"
+  Research: ""
+  Teaching: ""
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
     - github: "https://github.com/nimdvir/nimdvir.github.io/"
-  News: "blog"
+  News: ""
   Home: "https://nimdvir.github.io"
 
 # Image to show in the navigation bar - image must be a square (width = height)
