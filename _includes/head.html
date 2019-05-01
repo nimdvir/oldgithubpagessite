@@ -58,7 +58,7 @@
   <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
   {% endif %}
 
-  {% if page.citation_title %}
+  {% if page.citation-title %}
   <meta name="citation_title" content="{{ page.citation-title }}" >
   <meta name="citation_title" content="{{ page.meta-title }}" >
   {% elsif page.meta-title %}
@@ -66,7 +66,7 @@
   {% elsif page.title %}
   <meta property="og:title" content="{{ page.title }}" >
   {% else %}
-  <meta property="og:title" content="{{ site.title }}" >
+  <meta property="og:title" content="{{ site.title }}" />
   {% endif %}
 
    {% if page.meta-description %}
@@ -78,9 +78,9 @@
   {% endif %}
   
   {% if page.author %}
-  <meta name="citation_author" content="{{ page.author }}">
+  <meta name="citation_author" content="{{ page.author }}"/>
   {% else %}
-  <meta name="citation_author" content="{{ site.author }}">
+  <meta name="citation_author" content="{{ site.author }}"/>
   {% endif %}
 
 
