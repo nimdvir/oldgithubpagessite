@@ -21,14 +21,14 @@ A soulful notion of success rests on the actualization of our innate image. Succ
 
 {%- for tag in post.tags -%}
 
-    {%- for post in site.tags[tag] -%}
+{%- for post in site.tags[tag] -%}
     
-        <div class="tag-entry">
+<div class="tag-entry">
         
-            <a href="{{- site.url -}}{{- post.url -}}">{{- post.title -}}</a>
+<a href="{{- site.url -}}{{- post.url -}}">{{- post.title -}}</a>
             
-         </div>
+</div>
          
-    {%- endfor -%}
+{%- endfor -%}
     
 {%- endfor -%}
