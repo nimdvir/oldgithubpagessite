@@ -20,9 +20,15 @@ A soulful notion of success rests on the actualization of our innate image. Succ
 ## Related:
 
 {%- for tag in post.tags -%}
+
     {%- for post in site.tags[tag] -%}
+    
         <div class="tag-entry">
+        
             <a href="{{- site.url -}}{{- post.url -}}">{{- post.title -}}</a>
+            
          </div>
+         
     {%- endfor -%}
+    
 {%- endfor -%}
