@@ -81,6 +81,7 @@
   {% if page.author %}
     {% for author in page.author %}
       <meta name="citation_author" content="{{ author }}"/>
+    {% endfor %}
   {% else %}
   <meta name="citation_author" content="{{ site.author }}"/>
   {% endif %}
