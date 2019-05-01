@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About me"
-citation_title: "cite about"
+citation_title: cite about
 subtitle: Why you'd want to go on a date with me
 bigimg:
   - "/media/nim-dvir-engagement.jpg"
