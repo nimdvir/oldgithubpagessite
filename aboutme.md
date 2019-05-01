@@ -3,11 +3,13 @@ layout: page
 title: About me
 subtitle: Why you'd want to go on a date with me
 bigimg:
-  - /img/morning show.JPG
+  - "/media/nim-dvir-engagement.jpg"
+  - "/media/backgroundbinary6.gif"
 
 ---
 
-My name is Nim Dvir. I have the following qualities:
+My name is Nim Dvir. 
+I have the following qualities:
 
 - I rock a great mustache
 - I'm extremely loyal to my family
