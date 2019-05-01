@@ -1,10 +1,246 @@
 # Beautiful Jekyll
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/daattali/20)
-[![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)
+## YAML front matter ("parameters" for a page)
 
-> *Copyright 2018 [Dean Attali](https://deanattali.com)*
+In order to have your new pages use this template and not just be plain pages, you need to add  [YAML front matter](https://jekyllrb.com/docs/front-matter/)  to the top of each page. This is where you'll give each page some parameters that I made available, such as a title and subtitle. I'll go into more detail about what parameters are available later. If you don't want to use any parameters on your new page (this also means having no title), then use the empty YAML front matter:
 
+```
+---
+---
+
+```
+
+If you want to use any parameters, write them between the two lines. For example, you can have this at the top of a page:
+
+```
+---
+title: Contact me
+subtitle: Here you'll find all the ways to get in touch with me
+---
+
+```
+
+You can look at the top of  [`aboutme.md`](https://github.com/daattali/beautiful-jekyll/blob/master/aboutme.md)  or  [`index.html`](https://github.com/daattali/beautiful-jekyll/blob/master/index.html)  as more examples.
+
+**Important takeaway: ALWAYS add the YAML front matter, which is two lines with three dashes, to EVERY page. If you have any parameters, they go between the two lines.**  If you don't include YAML then your file will not use the template.
+
+## [](https://github.com/daattali/beautiful-jekyll#features)Features
+
+### [](https://github.com/daattali/beautiful-jekyll#mobile-first)Mobile-first
+
+**Beautiful Jekyll**  is designed to look great on both large-screen and small-screen (mobile) devices. Load up your site on your phone or your gigantic iMac, and the site will work well on both, though it will look slightly different.
+
+### [](https://github.com/daattali/beautiful-jekyll#customizable)Customizable
+
+Many personalization settings in  `_config.yml`, such as setting your name and site's description, changing the background colour/image, setting your avatar to add a little image in the navigation bar, customizing the links in the menus, customizing what social media links to show in the footer, etc.
+
+### [](https://github.com/daattali/beautiful-jekyll#allowing-users-to-leave-comments)Allowing users to leave comments
+
+If you want to enable comments on your site, Beautiful Jekyll supports either the  [Disqus](https://disqus.com/)  comments plugin,  [Facebook](https://developers.facebook.com/docs/plugins/comments)comments,  [Staticman](https://staticman.net/)  or  [just-comments](https://just-comments.com/). If any of these are set in the configuration file, then all blog posts will have comments turned on by default. To turn off comments on a particular blog post, add  `comments: false`  to the YAML front matter. If you want to add comments on the bottom of a non-blog page, add  `comments: true`  to the YAML front matter.
+
+#### [](https://github.com/daattali/beautiful-jekyll#disqus-comments)Disqus comments
+
+To use Disqus, simply sign up to  [Disqus](https://disqus.com/)  and add your Disqus shortname to the  `disqus`  parameter in the  `_config.yml`  file.
+
+#### [](https://github.com/daattali/beautiful-jekyll#facebook-comments)Facebook comments
+
+To use Facebook comments, create a Facebook app using  [Facebook developers](https://developers.facebook.com/docs/apps/register), and add the Facebook App ID to the  `fb_comment_id`  parameter in  `_config.yml`.
+
+#### [](https://github.com/daattali/beautiful-jekyll#staticman-comments)Staticman comments
+
+To use Staticman, you first need to invite  `staticmanlab`  as a collaborator to your repository (by going to your repository  **Settings**  page, navigate to the  **Collaborators**  tab, and add the username  `staticmanlab`), and then accept the invitation by going to  `https://staticman3.herokuapp.com/v3/connect/github/<username>/<repo-name>`. Lastly, fill in your  `repository`  and  `branch`  in the Staticman section of  `_config.yml`.
+
+#### [](https://github.com/daattali/beautiful-jekyll#just-comments-comments)Just-Comments comments
+
+To use Just-comments you first need to have an account. After you just need to copy the API key to the just-comments property in  `_config.yml`  file.
+
+### [](https://github.com/daattali/beautiful-jekyll#adding-google-analytics-to-track-page-views)Adding Google Analytics to track page views
+
+Beautiful Jekyll lets you easily add Google Analytics to all your pages. This will let you track all sorts of information about visits to your website, such as how many times each page is viewed and where (geographically) your users come from. To add Google Analytics, simply sign up to  [Google Analytics](https://www.google.com/analytics/)  to obtain your Google Tracking ID, and add this tracking ID to the  `google_analytics`  parameter in  `_config.yml`.
+
+### [](https://github.com/daattali/beautiful-jekyll#sharing-blog-posts-on-social-media)Sharing blog posts on social media
+
+By default, all blog posts will have buttons at the bottom of the post to allow people to share the current page on Twitter/Facebook/LinkedIn. You can choose to enable/disable specific social media websites in the  `_config.yml`  file. You can also turn off the social media buttons on specific blog posts using  `social-share: false`  in the YAML front matter.
+
+### [](https://github.com/daattali/beautiful-jekyll#rss-feed)RSS feed
+
+Beautiful Jekyll automatically generates a simple RSS feed of your blog posts, to allow others to subscribe to your posts. If you want to add a link to your RSS feed in the footer of every page, find the  `rss: false`  line in  `_config.yml`  and change it to  `rss: true`.
+
+### [](https://github.com/daattali/beautiful-jekyll#page-types)Page types
+
+-   **post**  - To write a blog post, add a markdown or HTML file in the  `_posts`  folder. As long as you give it YAML front matter (the two lines of three dashes), it will automatically be rendered like a blog post. Look at the existing blog post files to see examples of how to use YAML parameters in blog posts.
+-   **page**  - Any page outside the  `_posts`  folder that uses YAML front matter will have a very similar style to blog posts.
+-   **minimal**  - If you want to create a page with minimal styling (ie. without the bulky navigation bar and footer), assign  `layout: minimal`  to the YAML front matter.
+-   If you want to completely bypass the template engine and just write your own HTML page, simply omit the YAML front matter. Only do this if you know how to write HTML!
+
+### [](https://github.com/daattali/beautiful-jekyll#yaml-front-matter-parameters)YAML front matter parameters
+
+These are the main parameters you can place inside a page's YAML front matter that  **Beautiful Jekyll**  supports.
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>title</td>
+<td>Page or blog post title</td>
+</tr>
+<tr>
+<td>subtitle</td>
+<td>Short description of page or blog post that goes under the title</td>
+</tr>
+<tr>
+<td>tags</td>
+<td>List of tags to categorize the post. Separate the tags with commas and place them inside square brackets. Example: <code>[personal, self help, finance]</code></td>
+</tr>
+<tr>
+<td>bigimg</td>
+<td>Include a large full-width image at the top of the page.  You can either give the path to a single image, or provide a list of images to cycle through (see <a href="https://deanattali.com/" rel="nofollow">my personal website</a> as an example).</td>
+</tr>
+<tr>
+<td>comments</td>
+<td>If you want do add comments to a specific page, use <code>comments: true</code>. Comments are automatically enabled on blog posts; to turn comments off for a specific post, use <code>comments: false</code>. Comments only work if you enable at least one provider(diqus, staticman, just-comments) in <code>_config.yml</code> file.</td>
+</tr>
+<tr>
+<td>show-avatar</td>
+<td>If you have an avatar configured in the <code>_config.yml</code> but you want to turn it off on a specific page, use <code>show-avatar: false</code>. If you want to turn it off by default, locate the line <code>show-avatar: true</code> in the file <code>_config.yml</code> and change the <code>true</code> to <code>false</code>; then you can selectively turn it on in specific pages using <code>show-avatar: true</code>.</td>
+</tr>
+<tr>
+<td>image</td>
+<td>If you want to add a personalized image to your blog post that will show up next to the post's excerpt and on the post itself, use <code>image: /path/to/img</code>.</td>
+</tr>
+<tr>
+<td>share-img</td>
+<td>If you want to specify an image to use when sharing the page on Facebook or Twitter, then provide the image's full URL here.</td>
+</tr>
+<tr>
+<td>social-share</td>
+<td>If you don't want to show buttons to share a blog post on social media, use <code>social-share: false</code> (this feature is turned on by default).</td>
+</tr>
+<tr>
+<td>use-site-title</td>
+<td>If you want to use the site title rather than page title as HTML document title (ie. browser tab title), use <code>use-site-title: true</code>. When set, the document title will take the format <code>Site Title - Site Description</code> (eg. <code>My website - A virtual proof that name is awesome!</code>). By default, it will use <code>Page Title</code> if it exists, or <code>Site Title</code> otherwise.</td>
+</tr>
+<tr>
+<td>layout</td>
+<td>What type of page this is (default is <code>post</code> for blog posts and <code>page</code> for other pages. You can use <code>minimal</code> if you don't want a header and footer)</td>
+</tr>
+<tr>
+<td>js</td>
+<td>List of local JavaScript files to include in the page (eg. <code>/js/mypage.js</code>)</td>
+</tr>
+<tr>
+<td>ext-js</td>
+<td>List of external JavaScript files to include in the page (eg. <code>//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js</code>). External JavaScript files that support <a href="https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity" rel="nofollow">Subresource Integrity (SRI)</a> can be specified using the <code>href</code> and <code>sri</code> parameters eg.<br><code>href: "//code.jquery.com/jquery-3.1.1.min.js"</code><br><code>sri: "sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="</code></td>
+</tr>
+<tr>
+<td>css</td>
+<td>List of local CSS files to include in the page</td>
+</tr>
+<tr>
+<td>ext-css</td>
+<td>List of external CSS files to include in the page. External CSS files using SRI (see <code>ext-js</code> parameter) are also supported.</td>
+</tr>
+<tr>
+<td>googlefonts</td>
+<td>List of Google fonts to include in the page (eg. <code>["Monoton", "Lobster"]</code>)</td>
+</tr>
+<tr>
+<td>gh-repo &nbsp;</td>
+<td>If you want to show GitHub buttons at the top of a post, this sets the GitHub repo name (eg. <code>daattali/beautiful-jekyll</code>). You must also use the <code>gh-badge</code> parameter to specify what buttons to show.</td>
+</tr>
+<tr>
+<td>gh-badge</td>
+<td>Select which GitHub buttons to display, available options are: [star, watch, fork, follow]. You must also use the <code>gh-repo</code> parameter to specify the GitHub repo.</td>
+</tr>
+</tbody>
+</table>
+Parameter
+
+Description
+
+title
+
+Page or blog post title
+
+subtitle
+
+Short description of page or blog post that goes under the title
+
+tags
+
+List of tags to categorize the post. Separate the tags with commas and place them inside square brackets. Example:  `[personal, self help, finance]`
+
+bigimg
+
+Include a large full-width image at the top of the page. You can either give the path to a single image, or provide a list of images to cycle through (see  [my personal website](https://deanattali.com/)  as an example).
+
+comments
+
+If you want do add comments to a specific page, use  `comments: true`. Comments are automatically enabled on blog posts; to turn comments off for a specific post, use  `comments: false`. Comments only work if you enable at least one provider(diqus, staticman, just-comments) in  `_config.yml`  file.
+
+show-avatar
+
+If you have an avatar configured in the  `_config.yml`  but you want to turn it off on a specific page, use  `show-avatar: false`. If you want to turn it off by default, locate the line  `show-avatar: true`  in the file  `_config.yml`  and change the  `true`  to  `false`; then you can selectively turn it on in specific pages using  `show-avatar: true`.
+
+image
+
+If you want to add a personalized image to your blog post that will show up next to the post's excerpt and on the post itself, use  `image: /path/to/img`.
+
+share-img
+
+If you want to specify an image to use when sharing the page on Facebook or Twitter, then provide the image's full URL here.
+
+social-share
+
+If you don't want to show buttons to share a blog post on social media, use  `social-share: false`  (this feature is turned on by default).
+
+use-site-title
+
+If you want to use the site title rather than page title as HTML document title (ie. browser tab title), use  `use-site-title: true`. When set, the document title will take the format  `Site Title - Site Description`  (eg.  `My website - A virtual proof that name is awesome!`). By default, it will use  `Page Title`  if it exists, or  `Site Title`  otherwise.
+
+layout
+
+What type of page this is (default is  `post`  for blog posts and  `page`  for other pages. You can use  `minimal`  if you don't want a header and footer)
+
+js
+
+List of local JavaScript files to include in the page (eg.  `/js/mypage.js`)
+
+ext-js
+
+List of external JavaScript files to include in the page (eg.  `//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js`). External JavaScript files that support  [Subresource Integrity (SRI)](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity)  can be specified using the  `href`  and  `sri`  parameters eg.  
+`href: "//code.jquery.com/jquery-3.1.1.min.js"`  
+`sri: "sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="`
+
+css
+
+List of local CSS files to include in the page
+
+ext-css
+
+List of external CSS files to include in the page. External CSS files using SRI (see  `ext-js`  parameter) are also supported.
+
+googlefonts
+
+List of Google fonts to include in the page (eg.  `["Monoton", "Lobster"]`)
+
+gh-repo
+
+If you want to show GitHub buttons at the top of a post, this sets the GitHub repo name (eg.  `daattali/beautiful-jekyll`). You must also use the  `gh-badge`  parameter to specify what buttons to show.
+
+gh-badge
+
+Select which GitHub buttons to display, available options are: [star, watch, fork, follow]. You must also use the  `gh-repo`  parameter to specify the GitHub repo.
+
+### [](https://github.com/daattali/beautiful-jekyll#advanced-features-including-how-to-use-a-custom-url-address-for-your-site)Advanced features (including how to use a custom URL address for your site)
+
+I wrote  [a blog post](https://deanattali.com/2015/03/12/beautiful-jekyll-how-to-build-a-site-in-minutes/)  describing some more advanced features that I used in my website that are applicable to any Jekyll site. It describes how I used a custom URL for my site (deanattali.com instead of daattali.github.io), how to add a Google-powered search into your site, and provides a few more details about having an RSS feed.
+
+---
 **Beautiful Jekyll** is a ready-to-use template to help you create an awesome website quickly. Perfect for personal sites, blogs, or simple project websites.  [Check out a demo](https://deanattali.com/beautiful-jekyll) of what you'll get after just two minutes.  You can also look at [my personal website](https://deanattali.com) to see it in use, or see examples of websites other people created using this theme [here](#showcased-users-success-stories).
 
 **If you enjoy this theme, please consider [supporting me](https://www.paypal.me/daattali/20) for developing and maintaining this template.**
@@ -90,7 +326,7 @@ subtitle: Here you'll find all the ways to get in touch with me
 
 You can look at the top of [`aboutme.md`](./aboutme.md) or [`index.html`](./index.html) as more examples.
 
-**Important takeaway: ALWAYS add the YAML front matter, which is two lines with three dashes, to EVERY page. If you have any parameters, they go between the two lines.**    
+**Important takeaway: ALWAYS add the YAML front matter, which is two lines with three dashes, to EVERY page. If you have any parameters, they go between the two lines.**    
 If you don't include YAML then your file will not use the template.
 
 ## Features
@@ -163,7 +399,7 @@ ext-js      | List of external JavaScript files to include in the page (eg. `//c
 css         | List of local CSS files to include in the page
 ext-css      | List of external CSS files to include in the page. External CSS files using SRI (see `ext-js` parameter) are also supported.
 googlefonts | List of Google fonts to include in the page (eg. `["Monoton", "Lobster"]`)
-gh-repo   | If you want to show GitHub buttons at the top of a post, this sets the GitHub repo name (eg. `daattali/beautiful-jekyll`). You must also use the `gh-badge` parameter to specify what buttons to show.
+gh-repo   | If you want to show GitHub buttons at the top of a post, this sets the GitHub repo name (eg. `daattali/beautiful-jekyll`). You must also use the `gh-badge` parameter to specify what buttons to show.
 gh-badge  | Select which GitHub buttons to display, available options are: [star, watch, fork, follow]. You must also use the `gh-repo` parameter to specify the GitHub repo.
 
 ### Advanced features (including how to use a custom URL address for your site)
@@ -305,3 +541,6 @@ If you do fork or clone this project to use as a template for your site, I would
 ## Known limitations
 
 - If you have a project page and you want a custom 404 page, you must have a custom domain.  See https://help.github.com/articles/custom-404-pages/.  This means that if you have a regular User Page you can use the 404 page from this theme, but if it's a website for a specific repository, the 404 page will not be used.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTc1OTQ4Njc5NF19
+-->
