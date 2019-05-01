@@ -17,7 +17,7 @@ A soulful notion of success rests on the actualization of our innate image. Succ
 
 ---
 
-##Related:
+## Related:
 
 {%- capture site_tags -%}
     {%- for tag in site.tags -%}
