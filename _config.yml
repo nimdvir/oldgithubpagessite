@@ -43,11 +43,11 @@ avatar: "/img/avatar-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-title-img: 
-  - /img/mta_cake.jpg
-  - /img/morning.jpg
-  - /img/nim-dvir-engagement.jpg
-  - /img/uxpa.jpg
+#title-img: 
+#  - /img/mta_cake.jpg
+#  - /img/morning.jpg
+#  - /img/nim-dvir-engagement.jpg
+#  - /img/uxpa.jpg
 
 # --- Background colour/image options --- #
 
@@ -115,10 +115,10 @@ url-pretty: "NimDvir.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+gtag: "UA-90333826-3"
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-90333826-3"
 
 # Google Tag Manager ID
 #gtm: ""
