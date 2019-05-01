@@ -58,7 +58,9 @@
   <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
   {% endif %}
 
-  {% if page.meta-title %}
+  {% if page.citation_title %}
+  <meta name="citation_title" content="{{ page.citation-title }}" />
+  {% elsif page.meta-title %}
   <meta property="og:title" content="{{ page.meta-title }}" />
   {% elsif page.title %}
   <meta property="og:title" content="{{ page.title }}" />
