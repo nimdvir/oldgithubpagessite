@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First post!
+citation_title: cite the First post!
 image: /img/hello_world.jpeg
 ---
 
