@@ -43,7 +43,11 @@ avatar: "/img/avatar-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-# title-img: /path/to/image
+title-img: 
+  - /img/mta_cake.jpg
+  - /img/morning.jpg
+  - /img/nim-dvir-engagement.jpg
+  -/img/uxpa.jpg
 
 # --- Background colour/image options --- #
 
