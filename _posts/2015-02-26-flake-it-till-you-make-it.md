@@ -13,3 +13,35 @@ The truth is that no one else can definitively know the path we are here to walk
 At the heart of the struggle are two very different ideas of success—survival-driven and soul-driven. For survivalists, success is security, pragmatism, power over others. Success is the absence of material suffering, the nourishing of the soul be damned. It is an odd and ironic thing that most of the material power in our world often resides in the hands of younger souls. Still working in the egoic and material realms, they love the sensations of power and focus most of their energy on accumulation. Older souls tend not to be as materially driven. They have already played the worldly game in previous lives and they search for more subtle shades of meaning in this one—authentication rather than accumulation. They are often ignored by the culture at large, although they really are the truest warriors.
 
 A soulful notion of success rests on the actualization of our innate image. Success is simply the completion of a soul step, however unsightly it may be. We have finished what we started when the lesson is learned. What a fear-based culture calls a wonderful opportunity may be fruitless and misguided for the soul. Staying in a passionless relationship may satisfy our need for comfort, but it may stifle the soul. Becoming a famous lawyer is only worthwhile if the soul demands it. It is an essential failure if you are called to be a monastic this time around. If you need to explore and abandon ten careers in order to stretch your soul toward its innate image, then so be it. Flake it till you make it.
+
+---
+
+{%- capture site_tags -%}
+    {%- for tag in site.tags -%}
+        {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+{%- endcapture -%}
+{%- assign tags_list = site_tags | split:',' | sort -%}
+
+{%- for tag in tags_list -%}
+    <a href="#{{- tag -}}" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
+{%- endfor -%}
+
+<div id="full-tags-list">
+{%- for tag in tags_list -%}
+    <h2 id="{{- tag -}}" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
+    </h2>
+    <div class="post-list">
+        {%- for post in site.tags[tag] -%}
+            <div class="tag-entry">
+                <a href="{{- site.url -}}{{- post.url -}}">{{- post.title -}}</a>
+                <div class="entry-date">
+                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: "%B %d, %Y" -}}</time>
+                </div>
+            </div>
+        {%- endfor -%}
+    </div>
+{%- endfor -%}
+</div>
