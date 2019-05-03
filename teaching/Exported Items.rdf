@@ -1,0 +1,12 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description rdf:about="urn:isbn:978-0-578-41425-6">
+        <dc:title>Sticky words: Evaluation and optimization of information interactions based on linguistic analysis</dc:title>
+        <dc:type>conferencePaper</dc:type>
+        <dc:creator>Dvir, Nim</dc:creator>
+        <dc:publisher>Association for Information Science and Technology</dc:publisher>
+        <dc:date>2018/11/10</dc:date>
+        <dc:identifier>ISBN 978-0-578-41425-6</dc:identifier>
+    </rdf:Description>
+</rdf:RDF>
