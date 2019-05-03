@@ -9,6 +9,11 @@ Answers emails in a timely manner
 Nothing need to be improved!
 
 I liked the course, it was interactive and the work was well laid out
+
+
+Center aligned text.
+{: .text-center}
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NTA5NjQ0N119
+eyJoaXN0b3J5IjpbLTk4MTM2MzAxOCwxNTQ1MDk2NDQ3XX0=
 -->
