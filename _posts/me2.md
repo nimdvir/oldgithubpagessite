@@ -7,7 +7,7 @@ image: https://3.bp.blogspot.com/-Xr_DCoVm-FA/VrOFFf13C-I/AAAAAAACU98/-V2UI_MoDA
 
 ---
 
-<p>A Pen by nim</p>
+
 <h1 id="academic-profile"><a href="https://media.nimdvir.com/p/about.html">academic-profile</a></h1>
 <p>NIM DVIR  <a href="https://www.linkedin.com/in/nimdvir"><img src="https://lh3.googleusercontent.com/ZxgWJPiu0tL7kXqH6uhuOf4D5NjyTLJGCB8A-CM5vA1jASaYLEhPdCEu_smwUprkDACa5F2XGK7IkKF9XYWqi3kiY4CGQLMsuM32pCj69M7DW7BXoO1uPibXIcIblHMzLfvKV86L" alt=""></a></p>
 <h2 id="new-york---1-646-244-2338--nimrod.dvirgmail.com--american-german-eu-and-israeli-citizen">New York | + 1-646-244-2338 | <a href="mailto:Nimrod.Dvir@gmail.com">Nimrod.Dvir@gmail.com</a> | American, German (EU) and Israeli citizen</h2>
