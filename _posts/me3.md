@@ -5,9 +5,10 @@ subtitle: PhD student
 tags: [personal, self help, finance, test]
 bigimg: img/covers.jpg
 show-avatar: true
+Date: 2018-10-11
 ---
-
-% image: https://3.bp.blogspot.com/-Xr_DCoVm-FA/VrOFFf13C-I/AAAAAAACU98/-V2UI_MoDAg/s1600/Noam_and_Omri_%2Bwedding%2Bme.jpg
+# Nim Dvir 3
+image: https://3.bp.blogspot.com/-Xr_DCoVm-FA/VrOFFf13C-I/AAAAAAACU98/-V2UI_MoDAg/s1600/Noam_and_Omri_%2Bwedding%2Bme.jpg
 
 # [academic-profile](https://media.nimdvir.com/p/about.html)
 
