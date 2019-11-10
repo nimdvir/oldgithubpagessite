@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Nim Dvir"	
-subtitle: PhD student	
+title: "Nim Dvir 2"	
+subtitle: PhD student 2	
 tags: [personal, self help, finance, test]
 bigimg: 
 - img/covers.jpg
+- https://3.bp.blogspot.com/-Xr_DCoVm-FA/VrOFFf13C-I/AAAAAAACU98/-V2UI_MoDAg/s1600/Noam_and_Omri_%2Bwedding%2Bme.jpg
 image: img/covers.jpg
 ---
 
