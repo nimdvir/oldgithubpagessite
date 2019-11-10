@@ -4,6 +4,7 @@ subtitle: PhD student
 tags: [personal, self help, finance, test]
 bigimg: img/covers.jpg
 image: img/covers.jpg
+type: post
 
 ---
 
