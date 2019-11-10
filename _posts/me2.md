@@ -1,7 +1,7 @@
 ---
 title: Nim Dvir	
 subtitle: PhD student	
-tags: [personal, self help, finance]
+tags: [personal, self help, finance, test]
 bigimg: https://3.bp.blogspot.com/-Xr_DCoVm-FA/VrOFFf13C-I/AAAAAAACU98/-V2UI_MoDAg/s1600/Noam_and_Omri_%2Bwedding%2Bme.jpg
 image: https://3.bp.blogspot.com/-Xr_DCoVm-FA/VrOFFf13C-I/AAAAAAACU98/-V2UI_MoDAg/s1600/Noam_and_Omri_%2Bwedding%2Bme.jpg
 
