@@ -1,15 +1,14 @@
 ---
-layout: page
+layout: post
 title: "Nim Dvir 2"	
 subtitle: PhD student 2	
 tags: [personal, self help, finance, test]
 bigimg: 
 - img/covers.jpg
 - https://3.bp.blogspot.com/-Xr_DCoVm-FA/VrOFFf13C-I/AAAAAAACU98/-V2UI_MoDAg/s1600/Noam_and_Omri_%2Bwedding%2Bme.jpg
-image: img/covers.jpg
 ---
 
-
+# Nim Dvir 2
 <h1 id="academic-profile"><a href="https://media.nimdvir.com/p/about.html">academic-profile</a></h1>
 <p>NIM DVIR  <a href="https://www.linkedin.com/in/nimdvir"><img src="https://lh3.googleusercontent.com/ZxgWJPiu0tL7kXqH6uhuOf4D5NjyTLJGCB8A-CM5vA1jASaYLEhPdCEu_smwUprkDACa5F2XGK7IkKF9XYWqi3kiY4CGQLMsuM32pCj69M7DW7BXoO1uPibXIcIblHMzLfvKV86L" alt=""></a></p>
 <h2 id="new-york---1-646-244-2338--nimrod.dvirgmail.com--american-german-eu-and-israeli-citizen">New York | + 1-646-244-2338 | <a href="mailto:Nimrod.Dvir@gmail.com">Nimrod.Dvir@gmail.com</a> | American, German (EU) and Israeli citizen</h2>
