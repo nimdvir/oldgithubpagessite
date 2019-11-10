@@ -1,11 +1,11 @@
 ---
-title: Nim Dvir	
+layout: page
+title: "Nim Dvir"	
 subtitle: PhD student	
 tags: [personal, self help, finance, test]
-bigimg: img/covers.jpg
+bigimg: 
+- img/covers.jpg
 image: img/covers.jpg
-type: post
-
 ---
 
 
