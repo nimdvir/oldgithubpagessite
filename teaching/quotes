@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text Carousel</title>
+    <style>
+      .carousel-container {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+      }
+
+      .carousel-text {
+        display: none;
+      }
+
+      .active {
+        display: block;
+      }
+
+      .carousel-dots {
+        margin-top: 10px;
+      }
+
+      .dot {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: gray;
+        margin-right: 5px;
+        cursor: pointer;
+      }
+
+      .active-dot {
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="carousel-container">
+      <h1>Text Carousel</h1>
+      <div class="carousel-text active">
+        <p>Quote 1</p>
+      </div>
+      <div class="carousel-text">
+        <p>Quote 2</p>
+      </div>
+      <div class="carousel-text">
+        <p>Quote 3</p>
+      </div>
+      <div class="carousel-dots">
+        <span class="dot active-dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("carousel-text");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].classList.remove("active");
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].classList.remove("active-dot");
+        }
+        slides[slideIndex - 1].classList.add("active");
+        dots[slideIndex - 1].classList.add("active-dot");
+      }
+
+      setInterval(() => {
+        showSlides((slideIndex += 1));
+      }, 3000);
+    </script>
+  </body>
+</html>
